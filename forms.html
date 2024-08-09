@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLA University</title>
+        <link rel="icon" href="./Logo.jpeg" sizes="10">
+    
+</head>
+<style>
+    body{
+background-color: rgb(127, 255, 185);
+    }
+   img{
+    border-radius: 100px;
+
+    }
+</style>
+<body><center>
+    
+    <img src="./Logo-removebg-preview.png" height="200" width=200 >
+<h1>GLA UNIVERSITY MATHURA</h1>
+    <!-- forms -->
+    <fieldset>
+        <legend>Registration Form</legend>
+       
+        <form action="">
+<label for="Username"><strong>Username:-</strong></label>
+<input type="text" id="Username"  required placeholder="Enter Username" pattern="[A-Z]{1}{a-z}*{0-9}{5}" autocomplete="off">
+<br>
+<br>
+<label for="pass"><strong>Password:-</strong></label>
+<input type="password" id="pass" required placeholder="Enter Your Password" pattern="[A-Z]{1}{_}{1}{0-9}{7}">
+<br>
+<br>
+<label for="mail"><strong>Email ID:-</strong></label>
+<input type="text" id="mail" required placeholder="Enter your Email">
+<br>
+<br>
+<label for="DOB"><strong>DOB:-</strong></label>
+<input type="date" required id="DOB">
+<br>
+<br>
+
+
+<!-- radio button  -->
+<label for="gen"><strong>Gender:-</strong></label>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+<input type="radio" name="Gender">Others
+<br>
+<br>
+
+
+<!-- checkbox -->
+<label for="branch">Branch</label>
+<input type="checkbox" id="branch">CSE
+<input type="checkbox" id="branch">EC
+<input type="checkbox" id="branch">Mechanical
+<input type="checkbox" id="branch">Civil
+<br>
+<br>
+
+<!-- Select Tag -->
+ Your City:-
+<select name="City" id="city"> 
+    <option value="">Mathura</option>
+    <option value="">Agra</option>
+    <option value="">Hyderabad</option>
+    <option value="">Other</option>
+</select>
+<br>
+<br>
+Your State:-
+<select name="City" id="city"> 
+    <option value="">Uttar Pradesh</option>
+    <option value="">Tamil Nadu</option>
+    <option value="">Bihar</option>
+    <option value="">Other</option>
+</select>
+<br>
+<br>
+
+<!-- File and Media  -->
+
+Upload Resume :-
+<input type="file">
+<br>
+<br>
+<!-- Video and media  -->
+<video width="320" height="240" controls>
+<source src="Maharaja.2024.1080p.WEB-DL.Hindi.ORG.mkv" type="video/mkv">
+</video>
+
+<!-- Submit and Reset  -->
+<input type="submit">
+<input type="reset">
+
+        </form>
+    </fieldset>
+</body>
+</html>
